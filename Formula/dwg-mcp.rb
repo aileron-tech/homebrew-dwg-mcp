@@ -1,27 +1,27 @@
 class DwgMcp < Formula
-  desc "MCP server for DWG ingestion: AutoCAD drawings as data for AI agents"
+  desc "MCP server for DWG and DXF ingestion: AutoCAD drawings as data for AI agents"
   homepage "https://github.com/aileron-tech/dwg-mcp"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/aileron-tech/dwg-mcp/releases/download/v0.1.1/dwg-mcp-aarch64-apple-darwin.tar.gz"
-      sha256 "b332b2f041eabbd241a88e54f85de545a6e4e051d79e9d30ac7a035bbcc3edfc"
+      url "https://github.com/aileron-tech/dwg-mcp/releases/download/v0.2.0/dwg-mcp-aarch64-apple-darwin.tar.gz"
+      sha256 "c3abf8a4b12bfc5a55f0a195f5facf9ece5f67ef930b54b0bc378da031af4a52"
     end
     on_intel do
-      url "https://github.com/aileron-tech/dwg-mcp/releases/download/v0.1.1/dwg-mcp-x86_64-apple-darwin.tar.gz"
-      sha256 "71260ca4b79c7b4b860f8b6caf97f08d0db2f3364e28ba4be827a36913c93a69"
+      url "https://github.com/aileron-tech/dwg-mcp/releases/download/v0.2.0/dwg-mcp-x86_64-apple-darwin.tar.gz"
+      sha256 "ef5385ef8804cf5259e1f784d46934e50344b48304ad4f026fad3199e4d6a47c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aileron-tech/dwg-mcp/releases/download/v0.1.1/dwg-mcp-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c0713d15ce70a4c48dee057453168a061f548b8749e30b73ba0d7fec0dbe2f02"
+      url "https://github.com/aileron-tech/dwg-mcp/releases/download/v0.2.0/dwg-mcp-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d4d195d972697ad9bed741984cbcac3bf6784e41fcfbdb6531dcf0b710ffdaea"
     end
     on_intel do
-      url "https://github.com/aileron-tech/dwg-mcp/releases/download/v0.1.1/dwg-mcp-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "afd5e99e026b8c3fa7e662ff5c476fb70d65de30e5819248d8c30a1e1f388c9e"
+      url "https://github.com/aileron-tech/dwg-mcp/releases/download/v0.2.0/dwg-mcp-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "61dff5c9ce75540e3ae4e088cb90dc6e8d8e4897eab72558e77b0b7bc298c65b"
     end
   end
 
