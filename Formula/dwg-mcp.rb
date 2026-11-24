@@ -1,7 +1,6 @@
 class DwgMcp < Formula
   desc "MCP server for DWG ingestion: AutoCAD drawings as data for AI agents"
   homepage "https://github.com/aileron-tech/dwg-mcp"
-  version "0.1.1"
   license "MPL-2.0"
 
   on_macos do
