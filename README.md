@@ -1,8 +1,6 @@
 # Homebrew tap for dwg-mcp
 
-[dwg-mcp](https://github.com/aileron-tech/dwg-mcp) is an MCP server for DWG
-ingestion: it gives AI agents tools to turn AutoCAD drawings into page images,
-readable tiles, a text layer and a metadata index.
+[dwg-mcp](https://github.com/aileron-tech/dwg-mcp) is an MCP server for drawing ingestion. The tap currently installs v0.2.0, which reads AutoCAD DWG and DXF into PNG previews, readable tiles, native text and metadata. SVG support is available from the server repository for source builds.
 
 ```sh
 brew tap aileron-tech/dwg-mcp
